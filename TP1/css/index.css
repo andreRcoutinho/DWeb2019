@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: radial-gradient(circle farthest-side, #86be41, #71a037);
+}
+
+.hero-content {
+    position: relative;
+    text-align: center;
+}
+
+.logo {
+    filter: grayscale(15%);
+    margin-bottom: 35px;
+    filter: drop-shadow(2px 5px 0 #666);
+}
+
+.button {
+    display: inline-block;
+    text-decoration: none;
+    color: #b84785;
+    margin: 65px;  
+    font-size: 3em; 
+    text-shadow: 2px 5px 0 #666;
+}
+
+i:hover {
+    transform-origin: center;
+    animation: i .8s normal forwards;
+}
+
+@keyframes i {
+    0% {
+        transform: rotateZ(0deg);
+    }
+    100% {
+        transform: rotateZ(360deg);
+    }
+}

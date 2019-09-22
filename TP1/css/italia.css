@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #faebd7;
+}
+
+nav {
+    background: linear-gradient(to right, #009246 33%, #ffffff 33%, #ffffff 66%, #ce2b37 66%);
+    text-align: center;
+    filter: grayscale(30%);
+}
+
+.content {
+    margin-top: 170px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    filter: drop-shadow(2px 5px 0 #666);
+}
