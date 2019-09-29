@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "pr.dtd">
+<pr>
+    <details>
+        <keyname>TP2_DWEB19_MEI</keyname>
+        <title>TP2</title>
+        <subtitle>Project Record</subtitle>
+        <begin>September 2019</begin>
+        <end>September 2019</end>
+        <supervisor>
+            <name>Jose Carlos Ramalho</name>
+            <email>jcr@di.uminho.pt</email>
+            <url>http://www.di.uminho.pt/~jcr</url>
+        </supervisor>
+    </details>
+    <team>
+        <member>
+            <name>Andre Coutinho</name>
+            <email>pg39284@alunos.uminho.pt</email>
+        </member>
+    </team>
+    <abstract>
+        <paragraph>
+            Trough the analysis of the <a href="http://www4.di.uminho.pt/~jcr/XML/didac/xmldocs/PR.htm">document</a> provided, I formulated a DTD which validates this document.
+        </paragraph>
+    </abstract>
+    <deliverables>
+        <file href="pr.dtd">
+            Project Record DTD
+        </file>
+    </deliverables>
+</pr>

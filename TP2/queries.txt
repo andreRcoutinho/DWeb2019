@@ -1,0 +1,14 @@
+Queries sobre os arqueossítios
+
+Faça o download do documento XML correspondente aos arqueossítios e especifique expressões XPath que respondam às seguintes alíneas: 
+
+(a) Qual o "IDENTI" dos arqueossítios do concelho de Amares. 
+(b) Quais os concelhos com arqueossítios registados. 
+(c) Seleccione as descrições dos arqueossítios do concelho de Montalegre. 
+
+
+_______________________________________________________________________________________
+
+(a) //IDENTI[../CONCEL=“ Amares “]
+(b) distinct-values(//CONCEL)
+(c) //DESCRI[../CONCEL=" Montalegre "]

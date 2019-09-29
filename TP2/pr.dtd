@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT pr (details, team, abstract, deliverables) >
+
+<!ELEMENT details (keyname, title, subtitle, begin, end, supervisor) >
+
+<!ELEMENT keyname (#PCDATA) >
+<!ELEMENT title (#PCDATA) >
+<!ELEMENT subtitle (#PCDATA) >
+<!ELEMENT begin (#PCDATA) >
+<!ELEMENT end (#PCDATA) >
+<!ELEMENT supervisor (name, email, url) >
+
+<!ELEMENT name (#PCDATA) >
+<!ELEMENT email (#PCDATA)> 
+<!ELEMENT url (#PCDATA)> 
+
+<!ELEMENT team (member)+ >
+<!ELEMENT member (name, email) >
+
+<!ELEMENT abstract (paragraph)+ >
+<!ELEMENT paragraph (#PCDATA|a)* >
+
+<!ELEMENT a (#PCDATA) >
+<!ATTLIST a
+            href CDATA #REQUIRED >
+            
+<!ELEMENT deliverables (file)+ >
+<!ELEMENT file (#PCDATA) >
+<!ATTLIST file
+            href CDATA #REQUIRED >
