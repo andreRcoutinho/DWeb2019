@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "pr.dtd">
+<pr>
+    <metadata>
+        <keyname>TP3_DWEB19_MEI</keyname>
+        <title>TP3</title>
+        <subtitle>Arqueossítios e transformações XSL</subtitle>
+        <supervisor homepage="http://www.di.uminho.pt/~jcr">
+            Jose Carlos Ramalho
+        </supervisor>
+        <bdate>outubro 2019</bdate>
+        <edate>outubro 2019</edate>
+    </metadata>
+    <workteam>
+        <worker>
+            <identifier>pg39284</identifier>
+            <name>André Coutinho</name>
+            <email>pg39284@alunos.uminho.pt</email>
+        </worker>
+    </workteam>
+    <abstract>
+        <p>
+            O <i><b>trabalho prático 3</b></i> tem foco em <b><xref url="https://www.w3.org/TR/xslt/all/">transformações XSL</xref></b> e consistiu em fazer uma <b>transformação</b> a este documento e ao documento dos <b><i><xref url="arq.xml">Arqueossítios do Nordeste Português</xref></i></b>. 
+        </p>
+    </abstract>
+    <deliverables>
+        <deliverable path="pr.xml">
+            XML do Project Record 
+        </deliverable>
+        <deliverable path="pr.dtd">
+            DTD do Project Record 
+        </deliverable>
+        <deliverable path="pr.xsl">
+            XSLT do Project Record
+        </deliverable>
+        <deliverable path="arq-transform.xsl">
+           XSLT dos Arqueossítios 
+        </deliverable>
+        <deliverable path="website/index.html">
+            Website dos Arqueossitios
+        </deliverable>
+    </deliverables>
+</pr>
