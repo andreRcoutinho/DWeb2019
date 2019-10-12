@@ -3,6 +3,8 @@
     xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs" version="2.0">
 
     <xsl:output method="xhtml" encoding="UTF-8" indent="yes"/>
+    
+    <!-- makes position() not skip odd numbers -->
     <xsl:strip-space elements="*"/>
 
     <xsl:template match="/">
