@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "pr.dtd">
+<pr>
+    <metadata>
+        <keyname>TP4_DWEB19_MEI</keyname>
+        <title>TP4</title>
+        <subtitle>Arqueossítios, transformações XSL e Node.js</subtitle>
+        <supervisor homepage="http://www.di.uminho.pt/~jcr">
+            Jose Carlos Ramalho
+        </supervisor>
+        <bdate>outubro 2019</bdate>
+        <edate>outubro 2019</edate>
+    </metadata>
+    <workteam>
+        <worker>
+            <identifier>pg39284</identifier>
+            <name>André Coutinho</name>
+            <email>pg39284@alunos.uminho.pt</email>
+        </worker>
+    </workteam>
+    <abstract>
+        <p>
+            Este projeto consistiu numa transformação XSL aplicada ao dataset dos arqueossítios, gerando um documento XML para cada um. 
+            Através de outro documento XSL, é possível associar uma stylesheet a cada ficheiro XML gerado, resultando em páginas HTML. 
+            Foi também criado um index para ligar a todos os ficheiros gerados.
+            Tudo isto é servido através de um servidor em node.js.
+        </p>
+    </abstract>
+    <deliverables>
+        <deliverable path="../arq2html.xsl">
+            XSLT que apresenta cada arqueossítio
+        </deliverable>
+        <deliverable path="../xml-split.xsl">
+            XSLT que separa cada arqueossítio
+        </deliverable>
+        <deliverable path="../index.xsl">
+            XSLT que gera o índice
+        </deliverable>
+        <deliverable path="../index.html">
+            Index.html
+        </deliverable>
+        <deliverable path="../server.js">
+            Servidor em node.js
+        </deliverable>
+        <deliverable path="../arq.xml">
+            Arqueossítios
+        </deliverable>
+        <deliverable path="pr.xml">
+            XML do Project Record 
+        </deliverable>
+        <deliverable path="pr.dtd">
+            DTD do Project Record 
+        </deliverable>
+        <deliverable path="pr.xsl">
+            XSLT do Project Record
+        </deliverable>
+    </deliverables>
+</pr>
