@@ -1,0 +1,25 @@
+extends layout
+block content
+    .w3-container
+        .w3-card-4.w3-light-grey
+            header.w3-container.w3-light-blue.w3-center
+                a(href='http://www.pugjs.org' target='blank')
+                    img(src='/pug' width='64px').w3-animate-zoom
+            .w3-panel
+                form.w3-container(action='/tarefa' method='POST')
+                    label
+                        b Tarefa
+                    input.w3-input.w3-border.w3-light-grey(type='text' name='descricao')
+                    label
+                        b Data Limite
+                    input.w3-input.w3-border.w3-light-grey(type='date' name='data')
+                    input.w3-btn.w3-blue-grey.w3-right.w3-margin-top.w3-hover-amber(type='submit' value='Registar')
+            hr.w3-border-top
+            .w3-panel
+                h3 Lista de Tarefas
+                ol
+                    each tarefa in lista
+                        li= tarefa.descricao + ' (' + tarefa.data + ')'
+            footer.w3-container.w3-light-blue.w3-center
+                address Criado por 
+                    a(href='http://www.github.com/andreRcoutinho/DWEB2019' target='_blank') PG39284

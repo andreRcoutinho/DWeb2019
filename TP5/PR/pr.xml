@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "pr.dtd">
+<pr>
+    <metadata>
+        <keyname>TP5_DWEB19_MEI</keyname>
+        <title>TP5</title>
+        <subtitle>Lista de Tarefas</subtitle>
+        <supervisor homepage="http://www.di.uminho.pt/~jcr">
+            Jose Carlos Ramalho
+        </supervisor>
+        <bdate>outubro 2019</bdate>
+        <edate>outubro 2019</edate>
+    </metadata>
+    <workteam>
+        <worker>
+            <identifier>pg39284</identifier>
+            <name>André Coutinho</name>
+            <email>pg39284@alunos.uminho.pt</email>
+        </worker>
+    </workteam>
+    <abstract>
+        <p>
+            Este projeto consistiu em criar uma <xref url="https://en.wikipedia.org/wiki/Single-page_application">SPA (Single Page Application)</xref> recorrendo a 
+            <xref url="https://nodejs.org/en/">Nodejs</xref> e <xref url="https://pugjs.org/api/getting-started.html">Pugjs</xref>, persistindo os dados criados com um ficheiro <xref url="http://www.json.org/">JSON</xref>.
+        </p>
+    </abstract>
+    <deliverables>
+        <deliverable path="../ListaDeTarefas.js">
+            Servidor Node
+        </deliverable>
+        <deliverable path="../spa.pug">
+            View principal
+        </deliverable>
+        <deliverable path="../erro.xsl">
+            View para erros
+        </deliverable>
+        <deliverable path="../layout.pug">
+            Metadados
+        </deliverable>
+        <deliverable path="../assets/w3.css">
+            Folha de estilos
+        </deliverable>
+        <deliverable path="../assets/favicon.ico">
+            Favicon
+        </deliverable>
+    </deliverables>
+</pr>
