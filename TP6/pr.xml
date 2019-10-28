@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "pr.dtd">
+<pr>
+    <metadata>
+        <keyname>TP6_DWEB19_MEI</keyname>
+        <title>TP6</title>
+        <subtitle>Gestão de Arquivo Sonoro</subtitle>
+        <supervisor homepage="http://www.di.uminho.pt/~jcr">
+            José Carlos Ramalho
+        </supervisor>
+        <bdate>outubro 2019</bdate>
+        <edate>outubro 2019</edate>
+    </metadata>
+    <workteam>
+        <worker>
+            <identifier>pg39284</identifier>
+            <name>André Coutinho</name>
+            <email>pg39284@alunos.uminho.pt</email>
+        </worker>
+    </workteam>
+    <abstract>
+        <p>
+            Este projeto consistiu em criar uma aplicação web que trata das operações CRUD (Create, Read, Update and Delete) recorrendo a 
+            uma base de dados <xref url="http://www.json.org/">JSON</xref> e às tecnologias <xref url="https://expressjs.com/">Express</xref>, <xref url="https://nodejs.org/en/">Nodejs</xref> e <xref url="https://pugjs.org/api/getting-started.html">Pugjs</xref>.
+        </p>
+    </abstract>
+    <deliverables>
+        <deliverable path="./tp6/bin/www">
+            Servidor
+        </deliverable>
+        <deliverable path="./tp6/views/index.pug">
+            View principal
+        </deliverable>
+        <deliverable path="./tp6/routes/index.js">
+            Tratamento de pedidos HTTP 
+        </deliverable>
+    </deliverables>
+</pr>
