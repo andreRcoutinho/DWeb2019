@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "pr.dtd">
+<pr>
+    <metadata>
+        <keyname>TP7_DWEB19_MEI</keyname>
+        <title>TP7</title>
+        <subtitle>Filmes</subtitle>
+        <supervisor homepage="http://www.di.uminho.pt/~jcr">
+            José Carlos Ramalho
+        </supervisor>
+        <bdate>novembro 2019</bdate>
+        <edate>novembro 2019</edate>
+    </metadata>
+    <workteam>
+        <worker>
+            <identifier>pg39284</identifier>
+            <name>André Coutinho</name>
+            <email>pg39284@alunos.uminho.pt</email>
+        </worker>
+    </workteam>
+    <abstract>
+        <p>
+            Este projeto consistiu em criar uma aplicação web que trata das operações CRUD (Create, Read, Update and Delete) recorrendo a 
+            uma base de dados <xref url="https://www.mongodb.com/">MongoDB</xref> e às tecnologias <xref url="https://expressjs.com/">Express</xref>, <xref url="https://nodejs.org/en/">Nodejs</xref> e <xref url="https://mongoosejs.com/">Mongoose</xref>.
+        </p>
+    </abstract>
+    <deliverables>
+        <deliverable path="./filmes/bin/www">
+            Servidor
+        </deliverable>
+        <deliverable path="./filmes/controllers/filmes.js">
+            Controller
+        </deliverable>
+        <deliverable path="./filmes/models/filme.js">
+            Modelo
+        </deliverable>
+        <deliverable path="./filmes/routes/filmes.js">
+            Tratamento de pedidos HTTP 
+        </deliverable>
+    </deliverables>
+</pr>
