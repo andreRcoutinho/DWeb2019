@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "pr.dtd">
+<pr>
+    <metadata>
+        <keyname>TP8_DWEB19_MEI</keyname>
+        <title>TP8</title>
+        <subtitle>Prémios Nobel</subtitle>
+        <supervisor homepage="http://www.di.uminho.pt/~jcr">
+            José Carlos Ramalho
+        </supervisor>
+        <bdate>novembro 2019</bdate>
+        <edate>novembro 2019</edate>
+    </metadata>
+    <workteam>
+        <worker>
+            <identifier>pg39284</identifier>
+            <name>André Coutinho</name>
+            <email>pg39284@alunos.uminho.pt</email>
+        </worker>
+    </workteam>
+    <abstract>
+        <p>
+            Tratamento de pedidos GET recorrendo a uma base de dados <xref url="https://www.mongodb.com/">MongoDB</xref> e às tecnologias <xref url="https://expressjs.com/">Express</xref>, <xref url="https://nodejs.org/en/">Nodejs</xref> e <xref url="https://mongoosejs.com/">Mongoose</xref>.
+            Para tal acontecer, primeiro é importado o ficheiro JSON recorrendo ao comando <i>mongoimport</i>.
+        </p>
+    </abstract>
+    <deliverables>
+        <deliverable path="./apiNobel/app.js">
+            Setup Aplicação
+        </deliverable>
+        <deliverable path="./apiNobel/controllers/premios.js">
+            Controller
+        </deliverable>
+        <deliverable path="./apiNobel/models/premio.js">
+            Modelo
+        </deliverable>
+        <deliverable path="./apiNobel/routes/premios.js">
+            Tratamento de pedidos HTTP 
+        </deliverable>
+        <deliverable path="./prize.json">
+            BD JSON 
+        </deliverable>
+    </deliverables>
+</pr>
