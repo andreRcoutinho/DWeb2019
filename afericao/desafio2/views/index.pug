@@ -1,0 +1,18 @@
+extends layout
+
+block content
+  .w3-container
+    h1 Lista de Entidades
+    table.w3-table-all 
+      tr
+        th Estado
+        th Sigla
+        th Designação
+        th Consultar
+      each ent in lista
+        tr
+          td= ent.estado
+          td= ent.sigla
+          td= ent.designacao
+          td
+            a(href=`http://localhost:3000/${ent.id}`) Ver
