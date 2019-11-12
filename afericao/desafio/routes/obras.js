@@ -15,12 +15,12 @@ var Obras = require("../controllers/obras");
 
 /* GET home page. */
 router.get("/obras", (req, res) => {
-  if (req.query.ano) {
-    Obras.obrasDoAno(req.query.ano)
+  if (req.query.compositor && req.query.duracao) {
+    Obras.obrasDoCompositorComDuracao(req.query.compositor, req.query.duracao)
       .then(dados => res.jsonp(dados))
       .catch(erro => res.status(500).jsonp(erro));
-  } else if (req.query.compositor && req.query.duracao) {
-    Obras.obrasDoCompositorComDuracao(req.query.compositor, req.query.duracao)
+  } else if (req.query.ano) {
+    Obras.obrasDoAno(req.query.ano)
       .then(dados => res.jsonp(dados))
       .catch(erro => res.status(500).jsonp(erro));
   } else if (req.query.periodo) {

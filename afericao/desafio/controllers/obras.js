@@ -15,7 +15,7 @@ Obras.obrasDoAno = ano => {
 };
 
 Obras.obrasDoCompositorComDuracao = (comp, dur) => {
-  return Obra.find({ compositor: comp, duracao: dur }).exec();
+  return Obra.find({ compositor: comp, duracao: { $gt: dur } }).exec();
 };
 
 Obras.obrasDoPeriodo = peri => {
