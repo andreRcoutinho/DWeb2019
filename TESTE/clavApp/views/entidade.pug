@@ -1,0 +1,35 @@
+extends layout
+
+block content
+    .w3-container
+        h1 Entidade
+        table.w3-table-all 
+            tr
+                th Sigla
+                th Mais info
+            tr
+                td= entidade.sigla
+                td 
+                    form.w3-container(action=`http://clav.dglab.gov.pt/entidades/ent_${entidade.sigla}` method='get')
+                        input.w3-btn.w3-border.w3-blue(type='submit' value='+ info')
+    .w3-container
+        h1 Tipologias
+        table.w3-table-all 
+            tr
+                th Sigla
+                th Designação
+                th ID
+                each tip in tipologia
+                    tr
+                        td= tip.sigla
+                        td= tip.designacao
+                        td= tip.id
+
+    adress
+        a(href='/') Voltar ao início
+
+
+
+
+
+
