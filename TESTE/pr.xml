@@ -20,7 +20,7 @@
     </workteam>
     <abstract>
         <p>
-            O dataset foi convertido de xml para json.
+            O dataset foi convertido de xml para json usando uma ferramenta online.
             1 - A persistência foi feita em MongoDB e os dados foram importados com o comando: mongoimport --db arqMusicasDB --collection musicas --file arq-musica-digital.json --jsonArray 
         </p> 
         <p>  
